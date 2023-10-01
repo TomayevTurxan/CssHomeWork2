@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p,
+span,
+a {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#head {
+    padding-bottom: 8.5rem;
+}
+
+#head fa-icon {
+    width: 15px;
+    display: inline-block;
+}
+
+/* cox vereceydim deye marginden display flex verdim  */
+#head .head-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom-color: #dc392d;
+    border-bottom-style: inset;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: white;
+}
+
+#head .head-title {
+    display: flex;
+    color: #999797;
+}
+
+#head .head-title fa-icon:first-child {
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+#head .head-title span {
+    font-size: 15px;
+}
+#head .icons{
+    margin-left: 5%;
+}
+#head .button {
+    margin-right: 10px;
+}
+
+#head .button button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #fbdddd;
+    border-radius: 5px;
+}
+
+#head .button button .fa-solid {
+    font-size: 15px;
+    color: #bfb0b0;
+}
+
+#head .button a {
+    text-decoration: none;
+    color: #b02e24;
+}
+
+.text-github {
+    color: black;
+}
+
+#head .button fa-icon:first-child {
+    margin-right: 10px;
+}
+
+.icons fa-icon {
+    margin-right: 20px;
+}
+/* nav hissesi burdan baslayir */
+#nav .img-logo {
+    display: inline-block;
+    width: 38%;
+}
+
+#nav {
+    position: relative;
+    margin-top: 60px;
+}
+
+#nav .container {
+    padding: 30px 70px;
+}
+
+
+#nav .img {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    z-index: -99;
+    background-color: #6c757d;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#nav .img .img-opacity {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+}
+
+#nav .container .img-logo a {
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#nav .navbar-collapse {
+    display: inline-block;
+    width: 58%;
+}
+
+#nav .navbar-collapse ul {
+    text-align: right;
+}
+
+#nav .navbar-collapse ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#nav .navbar-collapse ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .6s;
+}
+#nav .navbar-collapse ul li a:hover{
+    color: #d5d5d5;
+}
+#nav .body-title {
+    width: 35%;
+    margin: 10% auto;
+    text-align: center;
+}
+
+#nav .body-title h1 {
+    color: white;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+#nav .body-title h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin-top: 0.625rem;
+}
+/* nav hissesi bitdi */
+
+/* movzu basliqli section hissesi basladi  */
+#theme{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dee2e6;
+}
+#theme .theme-head {
+    width: 45%;
+    margin: 0 auto;
+}
+
+#theme .theme-head .theme-text a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#theme .theme-head .theme-text a:hover {
+    color: #0085a1;
+}
+#theme .theme-head .theme-text h2 h3 {
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+#theme .theme-head .theme-text a h2 {
+    font-size: 34px;
+}
+
+#theme .theme-head .theme-text a h3 {
+    margin: 10px 0px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#theme .theme-head .theme-text  span {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+    color: #6c757d;
+}
+#theme .theme-head .line{
+    margin: 30px 0px;
+    width: 100%;
+    height: 2px;
+    border-top: 1px solid;
+    color: #dee2e6;
+}
+#theme .theme-head  .btn-older{
+    text-align: right;
+}
+#theme .theme-head  .btn-older a{
+    padding: 16px 30px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 800;
+    line-height: 1.5;
+    background-color: #0085a1;
+    color: white;
+    text-transform: uppercase;
+}
+#theme .theme-head  .btn-older i{
+    margin-left: 5px;
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+/* movzu basliqli section hissesi bitdi */
+/* footer hissesi basladi */
+#contact .links{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+}
+#contact .links .link-app{
+    text-align: center;
+    padding: 30px 0px;
+}
+#contact .links .link-app ul{
+    list-style: none;
+}
+#contact .links .link-app ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+#contact .links .link-app ul li a{
+    color: #212529;
+}
+#contact .links .link-app ul li a svg{
+    z-index: -99;
+    position: relative;
+}
+#contact .links .link-app ul li a i{
+    font-size: 23px;
+    z-index: 99;
+    position: absolute;
+    left: 30%;
+    top: 13px;
+    color: white;
+}
+#contact .links  .link-text{
+    text-align: center;
+}
+#contact .links  .link-text span{
+    color: #6c757d ;
+    font-size: 16px;
+    font-style: italic;
+}
+/* footer hissesi bitdi */
