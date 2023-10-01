@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-img{
+    position: relative;
+    margin-bottom: 15px;
+}
+.title{
+    position: absolute;
+    bottom: 10%;
+    padding: 10px 25px;
+    background-color: white;
+}
+.title h2{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.head-title{
+    width: 40%;
+    position: relative;
+}
+.head-title span{
+    color: rgb(145, 145, 145);
+    font-family: "Martian Mono";
+    font-weight: 200;
+    letter-spacing: -2px;
+}
+.head-title h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Martian Mono";
+    margin: 15px 0px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.head-title p{
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+    line-height: 25px;
+    color: rgb(91, 89, 89);
+    color: rgb(69, 66, 66);
+}
+.head-title span:first-child{
+    margin-right: 22px;
+}
+.head-title span:first-child::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 18px;
+    background-color: rgb(145, 145, 145);
+    left: 23%;
+    top: 1%;
+}

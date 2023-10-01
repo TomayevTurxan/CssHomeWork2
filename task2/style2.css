@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#section {
+    background-color: rgb(6 164 255);
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    padding-top: 14%;
+    margin: 0 auto;
+    width: 26%;
+}
+
+.head {
+    border-radius: 15px;
+}
+
+#section .head-blog {
+    position: relative;
+    width: 98%;
+    background-size: cover;
+    height: 350px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(https://www.modelfactory.com.hk/productupload/564420210201175425.jpg);
+    border: 5px solid #a5a5a5;
+}
+.head-opacity{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    border-radius: 8px;
+}
+.head-blog .head-title {
+    color: white;
+    width: 50%;
+    position: absolute;
+    bottom: 15%;
+    left: 28%;
+    text-align: center;
+}
+.head-blog .head-title p{
+    position: relative;
+}
+.head-blog .head-title span{
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+.head-blog .head-title p span:first-child{
+    margin-right: 15px;
+}
+.head-blog .head-title p span:first-child::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 2px;
+    height: 15px;
+    background-color: white;
+    left: 52%;
+    top: 15%;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons a{
+    color: white;
+    margin-right: 5px;
+}
+.icons i{
+    font-size: 15px;
+    padding: 6px 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(6 164 255);
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

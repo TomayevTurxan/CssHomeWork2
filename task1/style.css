@@ -1,0 +1,78 @@
+#header nav {
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 4%;
+}
+
+#header .head-left {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    margin-right: 10%;
+}
+
+#header .head-center {
+    width: 60%;
+    height: 50px;
+    background-color: yellow;
+    position: relative;
+}
+
+#header .head-right {
+    width: 90px;
+    height: 50px;
+    background-color: yellow;
+    margin-left: 10%;
+}
+
+.div {
+    display: inline-block;
+}
+
+nav {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.title-center .blue-1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(66, 175, 230);
+}
+
+.title-center .blue-1 .red {
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    background-color: red;
+    top: 0;
+    right: 0;
+}
+
+.title-center .blue-2 {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 75px);
+    width: 150px;
+    height: 40px;
+    background-color: rgb(66, 175, 230);
+}
+
+.title-center .blue-3 {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(66, 175, 230);
+}
+
+.head-right .green {
+    width: 40px;
+    margin: 2px auto;
+    height: 40px;
+    border: 3px solid green;
+}
